@@ -1,0 +1,74 @@
+.centralizar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid;
+    height: 100vh;
+    border-radius: 5px;
+
+    background-image: linear-gradient(to top ,white,black);
+
+    
+}
+
+.aparecer{
+    height: 50px;
+    border: 1px solid;
+    border-radius: 5px;
+
+    color: white;
+    
+}
+.aparecer1{
+    
+    border: 1px solid;
+    margin-top: 2%;
+    border-radius: 5px;
+
+}
+
+h1{
+    color: white;
+}
+
+.informacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 70vh;
+    color: white;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+
+    width: 100vw;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:550px){
+
+
+
+    .aparecer1{
+    
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        border-radius: 5px;   
+    }
+
+    button{
+        margin-top: 5px;
+    }
+ 
+}
