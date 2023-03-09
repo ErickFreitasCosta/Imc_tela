@@ -24,6 +24,8 @@
     border: 1px solid;
     margin-top: 2%;
     border-radius: 5px;
+    display: flex;
+    
 
 }
 
@@ -53,7 +55,7 @@ h1{
 
 
 
-
+/* O TAMANHO MÁXIMO DA TELA É ATÉ 550 PX ,aí vai acontecer oq tem dentro dessa media */
 
 @media screen and (max-width:550px){
 
@@ -68,6 +70,9 @@ h1{
     }
 
     button{
+        margin-top: 5px;
+    }
+    span{
         margin-top: 5px;
     }
  
